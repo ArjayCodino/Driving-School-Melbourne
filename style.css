@@ -11,7 +11,7 @@
 
 body { 
   padding: px 0%;
-  background: #ffffff;
+  background: #000000;
 }
 
 a{
@@ -62,7 +62,7 @@ a{
 nav.nav-menu {
   width: 100%;
   background-color:#000000;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav.nav-menu ul {
@@ -70,18 +70,18 @@ nav.nav-menu ul {
   display: flex;
   align-items: center;
   list-style: none;
-  font-size: clamp(.8rem, 1.2vw, 2rem); 
+  font-size: 150%;
+  
 }
 
 .nav-menu .nav-item {
-  padding: 10px;
+  padding: 30px;
   transition: background-color 500ms ease-in-out;
 }
 
 .nav-menu .nav-item:hover {
   cursor: pointer;
-  background-color: #f17d0e;
-  
+  background-color: #ffffff4d;
 }
 
 .nav-menu .nav-item a{
@@ -93,7 +93,7 @@ nav.nav-menu ul {
 /* Main Content Wrapper Styles */
 .main-wrapper {
   background: white;
-  padding: 40px 20%;
+  padding: 0px 10%;
 }
 
 section {
@@ -110,17 +110,18 @@ section.youtube-embed {
   margin: 20px 0 0 0;
   padding: 10px 25px;
   width: fit-content;
-  background: #f17d0e;
+  background: #000000;
   border-radius: 0px;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   transition: 0.3s transform ease-in-out;
   text-align: center;
+
 }
 
 .button-link:hover {
   transform: scale(1.05);
-  background-color: #f17d0e;
+  color: rgb(245, 245, 245);
 }
 
 h1 {
@@ -167,8 +168,8 @@ ul{
 
 p {
   text-align: justify;
-  margin-bottom: 0px;
-  line-height: 1.2rem;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
 }
 
 img {
@@ -180,8 +181,8 @@ img {
 
 .two-col {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 5px;
 }
 
 .two-col div {
@@ -207,9 +208,9 @@ img {
 }
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.719)), url("https://cdn-fdigf.nitrocdn.com/WsDTDVcYxpOlCOUCjTqrOmlhTBwKCypC/assets/images/optimized/rev-59612d8/wp-content/uploads/2022/05/our-instructors-img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.719)), url("https://www.landscapingclarksvilletn.com/wp-content/uploads/2020/05/grass-375586_640.jpg");
   /* Set a specific height */
-  height: 500px;
+  height: 550px;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -223,9 +224,9 @@ img {
   top: 40%;
   left: 30%;
   transform: translate(-30%, -30%);
-  color: #f8f8f8(255, 255, 255);
-  font-weight:700;
-  font-size: 20px;
+  color: #ffffff(255, 255, 255);
+  font-weight:500;
+  font-size: 16px;
   width: 100%;
   padding: 20px;
 }
